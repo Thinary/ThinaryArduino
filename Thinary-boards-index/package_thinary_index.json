@@ -43,7 +43,7 @@
               "version": "1.3.0"
             }
           ]
-        },
+        }
       ],
       "tools":[
         {
@@ -189,7 +189,7 @@
               "url": "http://downloads.arduino.cc/tools/arduinoOTA-1.3.0-windows_386.zip"
             }
           ]
-        },
+        }
         ]
       }
    ]
