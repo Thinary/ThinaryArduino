@@ -16,8 +16,8 @@
           "category": "Thinary",
           "url": "https://github.com/Thinary/ThinaryArduino/releases/download/1.0.0/thinary-megaavr-1.0.0.zip",
           "archiveFileName": "thinary-megaavr-1.0.0.zip",
-          "checksum": "SHA-256:aec10c6759cf19f3f91de838747cdff7398546409df955ab984d95b45b76cd6b",
-          "size": "990899",
+          "checksum": "SHA-256:cc9b7471b970794b1c2bf04724431a6425a83cd11b6049a9ab61af961f5cf5f3",
+          "size": "990906",
           "help": {
             "online": "https://github.com/Thinary/ThinaryArduino/issues"
           },
