@@ -1,0 +1,40 @@
+# See: http://code.google.com/p/arduino/wiki/Platforms
+
+##############################################################
+
+nona4808.name=Thinary Nano Every
+
+nona4808.vid.0=0x1A86
+nona4808.pid.0=0x7523
+
+nona4808.upload.tool=avrdude
+nona4808.upload.protocol=jtag2updi
+nona4808.upload.maximum_size=49152
+nona4808.upload.maximum_data_size=6144
+nona4808.upload.speed=115200
+nona4808.upload.use_1200bps_touch=true
+nona4808.upload.extra_params=-P{serial.port}
+
+nona4808.build.mcu=atmega4808
+nona4808.build.f_cpu=16000000L
+nona4808.build.board=AVR_NANO_EVERY
+nona4808.build.core=arduino
+nona4808.build.variant=nona4808
+nona4808.build.text_section_start=.text=0x0
+nona4808.build.extra_flags={build.328emulation} -DMILLIS_USE_TIMERB2 -DNO_EXTERNAL_I2C_PULLUP
+#nona4808.build.extra_flags=-B{runtime.tools.atpack.path}/gcc/dev/{build.mcu}
+
+nona4808.bootloader.tool=avrdude
+nona4808.bootloader.file=atmega4808_uart_bl.hex
+nona4808.bootloader.SYSCFG0=0xC9
+nona4808.bootloader.BOOTEND=0x00
+nona4808.bootloader.OSCCFG=0x01
+nona4808.fuses.file=fuses_4808.bin
+
+menu.mode=Registers emulation
+nona4808.menu.mode.on=ATMEGA328
+nona4808.menu.mode.on.build.328emulation=-DAVR_NANO_4808_328MODE
+nona4808.menu.mode.off=None (ATMEGA4808)
+nona4808.menu.mode.off.build.328emulation=
+
+##############################################################
