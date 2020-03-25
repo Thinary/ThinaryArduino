@@ -7,6 +7,7 @@ https://thinaryelectronic.aliexpress.com
 https://raw.githubusercontent.com/Thinary/ThinaryArduino/master/Thinary-boards-index/package_thinary_index.json
 
 1. Open Arduino IDE  ----->  File ------->   Preferences.
+
 ![image](https://github.com/Thinary/ThinaryArduino/blob/master/Image/1.png)
 2. Open the URL editor.
 ![image](https://github.com/Thinary/ThinaryArduino/blob/master/Image/2.png)
